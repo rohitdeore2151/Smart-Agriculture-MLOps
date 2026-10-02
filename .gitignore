@@ -1,0 +1,19 @@
+# Environment files
+.env
+.env.*
+!.env.example
+backend/.env
+
+# Python virtual environments
+.agri/
+**/.agri/
+venv/
+.venv/
+**/venv/
+**/.venv/
+
+# Python cache
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*$py.class
