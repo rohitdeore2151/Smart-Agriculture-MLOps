@@ -1,6 +1,12 @@
 # 🌱 Smart Agriculture MLOps
 
-An end-to-end smart agriculture application that combines **Machine Learning, FastAPI, React, and MLOps practices** to provide data-driven agricultural predictions and recommendations.
+**Machine Learning, FastAPI, React, and MLOps practices**
+
+An end-to-end smart agriculture platform that uses Machine Learning, FastAPI, React, Docker, and MLOps practices to provide intelligent agricultural predictions and recommendations.
+
+![Smart Agriculture MLOps](docs/images/smart-agriculture-github-social-preview.jpg)
+
+---
 
 ## 🚀 Features
 
@@ -9,73 +15,97 @@ An end-to-end smart agriculture application that combines **Machine Learning, Fa
 - 💧 Irrigation Prediction
 - 💰 Agricultural Price Prediction
 - 🌱 Crop Yield Prediction
-- 🌤️ Live Weather Information
-- 🤖 Machine Learning model training and inference
-- ⚡ FastAPI backend
-- ⚛️ React + Vite frontend
-- 🐳 Docker support
-- 🔄 GitHub Actions workflows
+- 🌦️ Live Weather Information
+- 🤖 Machine Learning Model Training and Inference
+- ⚡ FastAPI Backend
+- ⚛️ React + Vite Frontend
+- 🐳 Docker and Docker Compose
+- 🔄 GitHub Actions CI/CD
+- 📦 Git LFS for Machine Learning Models
 
-## 🛠️ Tech Stack
+---
+
+## 🏗️ Tech Stack
 
 ### Machine Learning
+
 - Python
 - Scikit-learn
-- Joblib
 - Pandas
 - NumPy
+- Joblib
 
 ### Backend
+
 - FastAPI
 - Uvicorn
 - Python
 
 ### Frontend
+
 - React
 - Vite
 - JavaScript
 - npm
 
-### DevOps / MLOps
+### MLOps & DevOps
+
 - Docker
 - Docker Compose
 - GitHub Actions
-- Git & GitHub
+- Git
+- GitHub
+- Git LFS
 
-### External API
+### APIs
+
 - OpenWeatherMap API
 
-## 📂 Project Structure
+---
+
+## 📁 Project Structure
 
 ```text
 Smart-Agriculture-MLOps/
 │
 ├── .github/
 │   └── workflows/
-│       ├── ci.yml
-│       └── cd.yml
 │
 ├── backend/
 │   ├── app/
-│   │   ├── api/
-│   │   │   └── routes/
 │   │   ├── models/
-│   │   ├── main.py
-│   │   └── model_service.py
-│   └── requirements.txt
+│   │   ├── routes/
+│   │   └── ...
+│   ├── requirements.txt
+│   └── ...
 │
 ├── data/
 │
 ├── frontend/
+│   ├── src/
+│   ├── public/
+│   ├── package.json
+│   └── ...
 │
 ├── ml/
-│   ├── crop_recommendation/
-│   ├── fertilizer/
-│   ├── irrigation/
-│   ├── price_prediction/
-│   └── yield_prediction/
+│   ├── training/
+│   ├── notebooks/
+│   └── ...
 │
-├── docker-compose.yml
-├── package-lock.json
+├── docs/
+│   └── images/
+│       └── smart-agriculture-github-social-preview.jpg
+│
+├── .gitattributes
 ├── .gitignore
-└── README.md
+├── docker-compose.yml
+├── README.md
+└── package-lock.json
+
+⚙️ Requirements
+- Python 3.x
+- Node.js
+- npm
+- Docker Desktop
+- Git
+- Git LFS
